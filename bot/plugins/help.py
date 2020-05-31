@@ -4,7 +4,7 @@ from ..screenshotbot import ScreenShotBot
 
 
 HELP_TEXT = """
-Hi {}. Welcome to Screenshot Generator Bot. You can use me to generate
+Hi {}. Welcome to @TS_ScreenshotBot. You can use me to generate
 
     1. Screenshots.
     2. Sample Video.
