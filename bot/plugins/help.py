@@ -17,7 +17,7 @@ Hi {}. Welcome to @TS_ScreenshotBot. You can use me to generate
 
 👉  𝘌𝘹𝘢𝘮𝘱𝘭𝘦: /set_watermark 𝘸𝘢𝘵𝘦𝘳𝘮𝘢𝘳𝘬 𝘵𝘦𝘹𝘵.
 
-__If issues persists contact my Boss.__"""
+__If issues persists contact My Boss.__"""
 
 
 @ScreenShotBot.on_message(Filters.private & Filters.command("help"))
