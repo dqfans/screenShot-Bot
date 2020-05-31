@@ -145,7 +145,7 @@ async def display_settings(c, m, cb=False):
         InlineKeyboardButton(f"{Config.COLORS[watermark_color_code]}", 'set+wc')
     ]
     fs_btn = [
-        InlineKeyboardButton("Watermark Font Size", 'rj'),
+        InlineKeyboardButton("💾 Watermark Font Size", 'rj'),
         InlineKeyboardButton(f"{Config.FONT_SIZES_NAME[font_size]}", 'set+fs')
     ]
     as_file_btn = [InlineKeyboardButton("📷 Upload Mode", 'rj')]
