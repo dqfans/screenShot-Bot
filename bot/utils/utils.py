@@ -150,7 +150,7 @@ async def display_settings(c, m, cb=False):
     ]
     as_file_btn = [InlineKeyboardButton("📷 Upload Mode", 'rj')]
     wm_btn = [InlineKeyboardButton("✍ Watermark", 'rj')]
-    sm_btn = [InlineKeyboardButton("Screenshot Generation Mode", 'rj')]
+    sm_btn = [InlineKeyboardButton("🔁 Screenshot Generation Mode", 'rj')]
     
     
     if as_file:
