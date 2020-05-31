@@ -21,10 +21,10 @@ async def start(c, m):
             [
                 [
                     InlineKeyboardButton('Help', url='https://telegra.ph/Features-of-TS-ScreenshotBot-05-31'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/Dx_Bots')
+                    InlineKeyboardButton('creator', url='https://t.me/tsadmins')
                 ],
                 [
-                    InlineKeyboardButton('My Father', url='https://t.me/odbots')
+                    InlineKeyboardButton('Join Channel', url='https://t.me/dvdstores')
                 ]
             ]
         )
