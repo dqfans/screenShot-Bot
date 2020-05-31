@@ -137,7 +137,7 @@ async def display_settings(c, m, cb=False):
     font_size = await c.db.get_font_size(chat_id)
     
     sv_btn = [
-        InlineKeyboardButton("Sample Video Duration", 'rj'),
+        InlineKeyboardButton("🎞 Sample Video Duration", 'rj'),
         InlineKeyboardButton(f"{sample_duration}s", 'set+sv')
     ]
     wc_btn = [
@@ -148,8 +148,8 @@ async def display_settings(c, m, cb=False):
         InlineKeyboardButton("Watermark Font Size", 'rj'),
         InlineKeyboardButton(f"{Config.FONT_SIZES_NAME[font_size]}", 'set+fs')
     ]
-    as_file_btn = [InlineKeyboardButton("📷Upload Mode", 'rj')]
-    wm_btn = [InlineKeyboardButton("✍Watermark", 'rj')]
+    as_file_btn = [InlineKeyboardButton("📷 Upload Mode", 'rj')]
+    wm_btn = [InlineKeyboardButton("✍ Watermark", 'rj')]
     sm_btn = [InlineKeyboardButton("Screenshot Generation Mode", 'rj')]
     
     
