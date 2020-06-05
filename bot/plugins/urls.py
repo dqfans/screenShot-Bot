@@ -54,7 +54,7 @@ async def _(c, m):
     btns = gen_ik_buttons()
     
     if duration >= 600:
-        btns.append([InlineKeyboardButton('Generate Sample Video!', 'smpl')])
+        btns.append([InlineKeyboardButton('🎥 Generate Sample Video!', 'smpl')])
     
     await snt.edit_text(
         text=f"**👋 Hi, Choose one of the options**.\n\nTotal duration: `{datetime.timedelta(seconds=duration)}` (`{duration}s`)",
