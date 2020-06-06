@@ -19,13 +19,8 @@ async def start(c, m):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton('Help', url='https://telegra.ph/Features-of-TS-ScreenshotBot-05-31'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/TSproject')
-                ],
-                [
-                    InlineKeyboardButton('My Boss', url='https://t.me/TS_Boss')
-                ]
+                
+                [InlineKeyboardButton('My Boss', url='https://t.me/TS_Boss')],
             ]
         )
     )
