@@ -551,5 +551,5 @@ def gen_ik_buttons():
             i_keyboard = []
         if i==10:
             btns.append(i_keyboard)
-    btns.append([InlineKeyboardButton('Trim Video!', 'trim')])
+    btns.append([InlineKeyboardButton('✂ Trim Video!', 'trim')])
     return btns
