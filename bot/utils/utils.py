@@ -306,7 +306,7 @@ async def screenshot_fn(c, m):
         else:
             await media_msg.reply_media_group(screenshots, True)
         
-        await edit_message_text(m, text=f'')
+        await edit_message_text(m, text=f'𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍 ☑')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
@@ -403,7 +403,7 @@ async def sample_fn(c, m):
                 supports_streaming=True
             )
         
-        await edit_message_text(m, text=f'')
+        await edit_message_text(m, text=f'𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍 ☑')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
