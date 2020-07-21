@@ -403,7 +403,7 @@ async def sample_fn(c, m):
                 supports_streaming=True
             )
         
-        await edit_message_text(m, text=f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n© @TSsamplebot 😍')
+        await edit_message_text(m, text=f'')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
